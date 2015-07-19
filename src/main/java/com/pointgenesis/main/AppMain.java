@@ -18,7 +18,7 @@ public class AppMain {
     	return "Dog";
     }
     
-    @RequestMapping("/cat")
+    @RequestMapping("/cat.action")
     String cat() {
     	return "Cat";
     }
