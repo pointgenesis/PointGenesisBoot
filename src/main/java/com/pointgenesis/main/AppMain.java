@@ -8,9 +8,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableAutoConfiguration
 public class AppMain {
-    @RequestMapping("/")
+    @RequestMapping("/home")
     String home() {
         return "This is my first Spring Boot application!";
+    }
+    
+    @RequestMapping("/dog")
+    String dog() {
+    	return "Dog";
+    }
+    
+    @RequestMapping("/cat")
+    String cat() {
+    	return "Cat";
     }
 
     public static void main(String[] args) throws Exception {
