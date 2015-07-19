@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppMain {
     @RequestMapping("/")
     String home() {
-        return "Hello World!";
+        return "This is my first Spring Boot application!";
     }
 
     public static void main(String[] args) throws Exception {
